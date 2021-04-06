@@ -1,0 +1,205 @@
+* {
+    border: 1px solid black;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: lightcyan;
+}
+
+div {
+    margin: auto;
+    width: 1450px;
+}
+
+#startPage {
+    height: 850px;
+    background-color: lightpink;
+}
+#startPage > header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 10%;
+}
+
+#nav {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#nav div {
+    width: 50px;
+    text-align: center;
+}
+#app {
+    width: 20%;
+}
+#content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 90%;
+}
+.text {
+    text-align: left;
+    padding-left: 200px;
+}
+
+#phone {
+}
+#partners {
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: bisque;
+}
+#partners img {
+    height: 100px;
+}
+
+
+#properties {
+    height: 672px;
+}
+.localHead {
+    width: 50%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 1450px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+}
+.card p {
+    text-align: center;
+}
+.icon {
+    width: 50px;
+    height: 50px;
+}
+
+#stories {
+    height: 900px;
+    background-color: aqua;
+    position: relative;
+}
+#info {
+    width: 400px;
+    height: 200px;
+    left: 200px;
+    top: 100px;
+}
+#airbnb {
+    width: 400px;
+    height: 300px;
+    top: 150px;
+    left: 700px;
+}
+#HubSpot {
+    width: 300px;
+    height: 400px;
+    top: 350px;
+    left: 300px;
+}
+#bookMyShow {
+    width: 300px;
+    height: 200px;
+    top: 500px;
+    left: 700px;
+}
+.position {
+    position: absolute;
+}
+
+#achiv {
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#achiv .localHead {
+    width: 50%;
+    height: 80%;
+    text-align: center;
+
+}
+#achiv .achivContainer {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.achiveCard {
+    width: 250px;
+    height: 100px;
+
+}
+#headline {
+    height: 670px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#headline > img {
+    width: 50%;
+}
+#headline #headlineText {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#trends {
+    height: 690px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#trends .text {
+    display: flex;
+    flex-direction: row;
+}
+#trends .header {
+    width: 50%;
+}
+#trends .lorem {
+    width: 50%;
+}
+#mobile {
+    height: 500px;
+}
+#contacts {
+    height: 280px;
+}
+
+#popup {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+    overflow: hidden;
+    top: 50px;
+    left: 50px;
+    display: none;
+    width: 200px;
+    height: 200px;
+}
